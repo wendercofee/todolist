@@ -1,0 +1,9 @@
+
+PUT http://localhost:8080/tasks/ddb18797-bc6a-41b6-8fdd-c329a24bee8a HTTP/1.1
+content-type: application/json
+Authorization: Basic wendercofee2:12345
+
+{
+    "description": "Descricao do teste Alterado",
+    "title":"Titulo Alterado"
+}
